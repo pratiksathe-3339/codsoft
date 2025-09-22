@@ -7,8 +7,7 @@ import random
 VALID_CHOICES = {"rock": "r", "paper": "p", "scissors": "s", "r": "r", "p": "p", "s": "s"}
 CHOICE_NAMES = {"r": "rock", "p": "paper", "s": "scissors"}
 
-# Outcome matrix: (player, computer) -> result
-# result: 1 = player wins, 0 = tie, -1 = player loses
+
 OUTCOME = {
 	("r", "s"): 1,
 	("s", "p"): 1,
@@ -96,4 +95,5 @@ def play_game() -> None:
 
 
 if __name__ == "__main__":
+
 	play_game() 
