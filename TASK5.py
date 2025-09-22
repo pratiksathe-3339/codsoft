@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-"""
-Contact Management System
-A comprehensive contact management application with full CRUD operations
-Features: Add, View, Search, Update, Delete contacts with data persistence
-"""
-
 import json
 import os
 import re
@@ -486,3 +479,4 @@ class ContactApp:
 if __name__ == "__main__":
     app = ContactApp()
     app.run()
+
